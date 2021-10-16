@@ -5,72 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="carousel">
+        <input type="radio" id="slide-1" name="slides" value="slide-1" />
+        <label for="slide-1" class="slide-1 dot">Slide 1</label>
 
+        <input type="radio" id="slide-2" name="slides" value="slide-2" />
+        <label for="slide-2" class="slide-2 dot">Slide 2</label>
 
-    <section class="carousel" aria-label="Gallery">
-        <ol class="carousel__viewport">
-            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-                <div>
+        <input type="radio" id="slide-3" name="slides" value="slide-3" />
+        <label for="slide-3" class="slide-3 dot">Slide 3</label>
+
+        <input type="radio" id="slide-4" name="slides" checked value="slide-4" />
+        <label for="slide-4" class="slide-4 dot">Slide 4</label>
+
+        <!-- <input type="radio" id="slide-5" name="slides" value="slide-5" checked />
+        <label for="slide-5" class="slide-5 dot">Slide 5</label> -->
+
+        <!-- <label for="slide-1" class="slide-1 arrow">Slide 1</label>
+        <label for="slide-2" class="slide-2 arrow">Slide 2</label>
+        <label for="slide-3" class="slide-3 arrow">Slide 3</label>
+        <label for="slide-4" class="slide-4 arrow">Slide 4</label>
+        <label for="slide-5" class="slide-5 arrow">Slide 5</label> -->
+
+        <ul class="slides">
+            <li class="slide slide-1">
+                <img src="Img/1.jpg" alt="1">
+                <!-- <div>
                     <img src="Img/1.jpg" alt="1" class="slide_img">
                     <p class="slider_text">When you leave your son at home alone</p>
-                </div>
-
-
-                <!-- <div class="carousel__snapper">
-                    <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
-                    <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
                 </div> -->
             </li>
-            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-                <div>
-                    <img src="Img/2.jpg" alt="2" class="slide_img">
-                    <p class="slider_text">much improve. so amaze. wow</p>
-                </div>
-                <!-- <div class="carousel__snapper"></div>
-                <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
-                <a href="#carousel__slide3" class="carousel__next">Go to next slide</a> -->
+            <li class="slide slide-2">
+                <img src="Img/2.jpg" alt="2">
             </li>
-            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-                <div>
-                    <img src="Img/3.jpg" alt="3" class="slide_img">
-                    <p class="slider_text">No js its RS school</p>
-                </div>
-                <!-- <div class="carousel__snapper"></div>
-                <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
-                <a href="#carousel__slide4" class="carousel__next">Go to next slide</a> -->
+            <li class="slide slide-3">
+                <img src="Img/3.jpg" alt="3">
             </li>
-            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-                <div>
-                    <img src="Img/4.jpg" alt="3" class="slide_img">
-                    <p class="slider_text">My contribution to Arthur's fist</p>
-                </div>
-                <!-- <div class="carousel__snapper"></div>
-                <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
-                <a href="#carousel__slide1" class="carousel__next">Go to first slide</a> -->
+            <li class="slide slide-4">
+                <img src="Img/4.jpg" alt="4">
             </li>
-        </ol>
-        <aside class="carousel__navigation">
-            <ol class="carousel__navigation-list">
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
-                </li>
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
-                </li>
-            </ol>
-        </aside>
-    </section>
+            <!-- <li class="slide slide-5">
+                <img src="http://placekitten.com/500/304" />
+            </li> -->
+        </ul>
+        <ul class="slides">
+            <li class="slide2 slide-1">
+                <p class="slider_text">When you leave your son at home alone</p>
+            </li>
+            <li class="slide2 slide-2">
+                <p class="slider_text">Much improve. so amaze. wow</p>
+            </li>
+            <li class="slide2 slide-3">
+                <p class="slider_text">No js its RS school</p>
+            </li>
+            <li class="slide2 slide-4">
+                <p class="slider_text">My contribution to Arthur's fist</p>
+            </li>
+            <!-- <li class="slide slide-5">
+                <img src="http://placekitten.com/500/304" />
+            </li> -->
+        </ul>
+    </div>
 </body>
 
 </html>
